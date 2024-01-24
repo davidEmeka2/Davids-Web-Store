@@ -1,0 +1,81 @@
+body{
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+h1{
+  text-align: center;
+}
+
+.okDiv{
+  margin-left: 550px;
+height: 30px;
+width: 30px;
+border: 1px solid black;
+margin-bottom: 20px;
+position: relative;
+opacity: 1;
+}
+
+.ok{
+  margin-top: 5px;
+  margin-left: 5px;
+  height: 3px;
+  width: 20px;
+  background-color: green;
+  transition: 0.7s;
+  
+}
+
+
+
+
+.ok2{
+  margin-top: 5px;
+  height: 3px;
+  width: 20px;
+  background-color: green;
+  transition: 0.7s;
+}
+
+.ok3{
+  margin-top: 5px;
+  height: 3px;
+  width: 20px;
+  margin-left: 5px;
+  background-color: green;
+  transition: 0.7s;
+}
+
+.okDiv2{
+  margin-left: 550px;
+height: 30px;
+width: 30px;
+border: 1px solid black;
+margin-bottom: 20px;
+position: relative;
+opacity: 0;
+}
+
+.line1{
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  top: 12px;
+  background-color: green;
+  transition: 0.8s;
+  transform: rotate(135deg);
+}
+
+.line2{
+  position: absolute;
+  top: 12px;
+  transform: rotate(45deg);
+  height: 3px;
+  width: 30px;
+  background-color: green;
+  transition: 0.8s;
+}
+
+input{
+  outline: inset black;
+}
