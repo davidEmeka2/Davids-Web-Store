@@ -33,19 +33,21 @@ function Fetch() {
 
     {loader && <p className='text-center pt-20 text-2xl'>Loading . . .</p>}
 
-    <div style={{ width:"1200px", top:"150px" }}
+    <div 
 
-    className='pb-8 flex flex-wrap gap-8 relative left-20 items-center justify-center'>{Fetch && Fetch.map((item) =>
+    className='Box pb-8 flex flex-wrap gap-8  items-center justify-center'>{Fetch && Fetch.map((item) =>
 
    <div key={item.id}  
+   
+   data-aos = "fade-right"
 
     style={{height:"290px", width:"200px"}}
 
-    className='items-center flex flex-col relative rounded-md gap-2.5 bg-zinc-500 ' data-aos = "fade-right">
+    className='items-center flex flex-col relative rounded-md gap-2.5 bg-zinc-500 '>
         
     <p className='text-white text-sm text-center p-2' data-aos = "fade-right">{item.title}</p>
 
-    <img src={item.image} alt="image" style={{height:"120px", width:"120px" }} data-aos = "fade-right"/>
+    <img src={item.image} alt="image" style={{height:"120px", width:"120px" }} data-aos = "fade-right" className='rounded'/>
 
     <p style={{ bottom:"10px" }} className='text-white absolute' >${item.price}</p>
 
