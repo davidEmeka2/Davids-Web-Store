@@ -29,7 +29,7 @@ function Fetch() {
 
   return (
     <>
-    <h1 className='text-3xl pt-6'>David's Web Store</h1>
+    <h1 className='text-3xl pt-6'>David's Web Store</h1> 
 
     {loader && <p className='text-center pt-20 text-2xl'>Loading . . .</p>}
 
